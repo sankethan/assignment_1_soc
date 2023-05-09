@@ -1,0 +1,317 @@
+body{
+    /* background-color: #e0e5f5; */
+    margin: 0;
+    /* margin-left: 10px; */
+    padding-bottom: 3000px;
+}
+
+.name{
+    text-align:center;
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 45px;
+    color: #678198;
+    margin-top:10px ;
+    /* position: absolute; */
+    padding: 5px;
+
+}
+
+.hello{
+    /* margin-top: 50px; */
+    padding-left: 15px ;
+    text-align:left;
+    font-family: Montserrat;
+    font-weight: 200;
+    font-size: 45px;
+    color: #678198;
+}
+.welcome{
+    margin-top: 50px;
+    padding-left: 15px ;
+    text-align:left;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 45px;
+    color: #678198;
+}
+.tomy{
+    margin-top: 50px;
+    padding-left: 15px ;
+    text-align:left;
+    font-family: Pacifico;
+    font-weight: 400;
+    font-size: 45px;
+    color: #678198;
+}
+.port{
+    margin-top: 50px;
+    padding-left: 15px ;
+    text-align:left;
+    font-family: JosefinSans;
+    font-weight: 600;
+    font-size: 45px;
+    color: #678198;
+    /* position: absolute;s */
+}
+.welcome-text{
+    /* border: 1px solid #c1c7df; */
+    width: 500px;
+    /* margin-left: 100px; */
+    border-radius: 10px;
+    align-items: end;
+    transition-duration: 0.5;
+    margin-top: 20px;
+    /* position: absolute; */
+
+}
+.welcome-text:hover{
+    scale:1.05;
+
+}
+/* .container{
+    position: relative;
+    
+} */
+.container2{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+}
+
+.mepic2{
+    transition-duration: 0.5s;
+    border-radius: 20px; 
+}
+.name{
+    background-color: #678198;
+    color: #c1c7df;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.box1{
+    background-color: #ee4036;
+
+}
+.box2{
+    background-color: #262261;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box3{
+    background-color: #faaf40;
+    
+}
+.box1,.box2,.box3{
+    height: 920px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+.box-header{
+
+    text-align: center;
+    background-color: #408BFA;
+    border: 2px;
+    border-color: #506477;
+    border-radius: 20px;
+    border-style: solid ;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    font-weight: 400;
+    font-size: 50px;
+    color: #36E4EE;
+    height: 75px;
+}
+.card{
+    background-color:#728FCE;
+    border: 2px;
+    border-color: #506477;
+    border-radius: 20px;
+    border-style: solid ;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+    transition-duration: 1s;
+}
+.card:hover{
+    scale:1.05;
+}
+.card-header{
+    text-align: center;
+                    color: #CFB172;
+                    font-family: Montserrat;
+                    font-weight: 500;
+                    font-size: 30px;
+}
+.card-data{
+    text-align: center;
+                    color: azure;
+                    font-family: Roboto;
+                    font-weight: 100;
+                    font-size: 20px;
+}
+.cards{
+    /* display: flexbox; */
+    /* flex-direction: row; */
+    height: 10000px;
+    display: flex; flex-direction: column;
+    justify-content: space-between;
+    
+}
+#pic1,#pic2{
+    width: 80%; 
+    transform: translateX(40px);
+    transition-duration: 0.5s;
+}
+#pic1:hover,#pic2:hover,img:hover{
+    scale: 1.05;
+}
+img{
+    margin=0;
+}
+hr{
+    border: 0.01px solid blanchedalmond;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#circ1{
+    background-color: #ee4036;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    top: -95px;
+    
+}
+.index{
+    padding-top: 18%;
+    padding-left: 40%;
+    font-size: 40px;
+    font-family: Montserrat;
+    color:#e0e5f5
+}
+#circ2{
+    background-color: #ee4036;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    left: 1420px;
+    bottom: -60px;
+}
+.projects{
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.circle{
+    display: inline-block;
+    position: relative;
+    border-color: #111621;
+    border-style: solid;
+}
+.box{
+    height: 250px;
+    width: 1750px;
+    background-color: #408BFA;
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    border-radius: 20px;
+    border-color: #262261;
+    border-style: solid;
+    align-items: center;
+}
+.proj-header{
+    margin-left: 800px;
+
+    color: #c1c7df;
+    font-size: 24px;
+    align-items: center;
+}
+li{
+    font-family: monospace;
+    margin-left: 200px;
+    font-size: 20px;
+    color: #111621;
+}
+#proj1pic{
+    display: inline-block;
+    position: relative;
+    left:1550px;
+    top: 25px;
+    width: 1000px;
+    border-radius: 20px;
+    border-color: #111621;
+    border-style: solid;
+}
+#circ2{
+    background-color: #ee4036;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    left: 1720px;
+    bottom: 50px;
+}
+#index2{
+    
+    padding-top: 10%;
+    padding-left: 40%;
+    font-size: 40px;
+    font-family: Montserrat;
+    color:#e0e5f5
+    
+}
+#proj2pic{
+    display: inline-block;
+    position: relative;
+    right:1730px;
+    top: 90px;
+    width: 1000px;
+    border-radius: 20px;
+    border-color: #111621;
+    border-style: solid;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 20px;
+    /* justify-content: space-between; */
+}
+.column{
+    /* background-color: #262261; */
+    height: 1500px;
+    margin-top: 20px;
+
+}
+.cont5{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    /* width: 60%; */
+    /* background-color: #36E4EE; */
+}
+#me3{
+
+    /* width: 1000px; */
+    border-radius: 20px;
+    border-color: #111621;
+    border-style: solid;
+}
